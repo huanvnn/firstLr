@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    IN DEX
+   <h1 class="center"> Welcome Admin</h1>
 @endsection
 
 
