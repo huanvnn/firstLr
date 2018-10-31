@@ -87,13 +87,13 @@
                     </li>
                     <li class="menu-title">UI elements</li>
                     <!-- /.menu-title -->
-                    <li class="menu-item-has-children dropdown">
+                    {{-- <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>User</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">All Users</a></li>
                             <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Create User(demo)</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-pencil"></i>Post</a>
                         <ul class="sub-menu children dropdown-menu">
@@ -101,7 +101,7 @@
                             <li><i class="fa fa-edit"></i><a href="tables-data.html">Create Post</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children dropdown">
+                    {{-- <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Category</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">All Category</a></li>
@@ -147,7 +147,7 @@
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
                             <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -243,7 +243,7 @@
                         </div>
                     </div>
 
-                    <div class="user-area dropdown float-right">
+                    {{-- <div class="user-area dropdown float-right">
                         <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img class="user-avatar rounded-circle" src="{{asset('/images/admin.jpg')}}" alt="User Avatar">
                         </a>
@@ -257,7 +257,7 @@
 
                             <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
